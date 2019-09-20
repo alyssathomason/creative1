@@ -1,8 +1,82 @@
 <!DOCTYPE html>
 <html>
 
+<header>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>All About Travel</title>
+</header>
+
 <body>
-    <h1>Creative Project #1</h1>
+    <!-- navigation bar; should be on all pages -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">athom sites</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav navbar-right ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link link-active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/stats.html">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/map.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/photos.html">Photos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h1>All About Where I Have Traveled</h1>
+
+    <img src="images/norway.JPG">
+
+    <div class="home-row">
+        <div class="home-col" style="margin-right: 4px;">
+            <span id="hyperspan">
+                <a href="pages/stats.html">
+                <h2>Travel Stats</h2>
+            </a>
+        </span>
+        </div>
+        <div class="home-col" style="margin-right: 4px;">
+            <span id="hyperspan">
+                <a href="pages/map.html">
+                <h2>Interactive Map</h2>
+            </a>
+        </span>
+        </div>
+        <div class="home-col">
+            <span id="hyperspan">
+                <a href="pages/photos.html">
+                    <h2>Photos of my Travels</h2>
+                </a>
+            </span>
+        </div>
+    </div>
+
 </body>
+
+<!-- footer (must be on all pages) -->
+<footer>
+    <div class="f-container">
+        <div id="github-link-cont">
+            <a href="https://github.com/alyssathomason/creative1.git" id="github-link">GitHub:
+                alyssathomason/creative1.git</a>
+        </div>
+        <div id="linkedin-link-cont">
+            <a href="https://www.linkedin.com/in/alyssa-thomason/" id="linkedin-link">LinkedIn: Alyssa Thomason</a>
+        </div>
+        <br>
+        <p class="copyright"> © 2019 Alyssa Thomason, Inc.</p>
+    </div>
+</footer>
 
 </html>

@@ -1,0 +1,226 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    position: block;
+}
+
+.navbarNav {
+    position: fixed;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    color: rgb(255, 255, 255) !important;
+}
+
+img.navbar-brand {
+    width: 25%;
+}
+
+a.nav-link.link-active {
+    font-size: 30px;
+    font-feature-settings: "cpsp";
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(138, 139, 145, 0.787), rgba(199, 200, 211, 0.068));
+    top: 50%;
+    bottom: 50%;
+}
+
+a.nav-link {
+    font-size: 30px;
+    color: rgb(138, 139, 145) !important;
+    top: 50%;
+    bottom: 50%;
+}
+
+img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    padding: 10px;
+    color: #353A3F;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200%;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.home-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 4px;
+    padding-bottom: 2px;
+}
+
+.home-col {
+    max-height: 210px;
+    flex: 1;
+    padding: 12px;
+    background-image: linear-gradient(to bottom right, rgba(48, 88, 116, 0.94), rgba(52, 108, 145, 0.81));
+    border: 4px !important;
+}
+
+
+/* .home-row-pic {
+    max-width: 35%;
+    max-height: 35%;
+    margin: 10px;
+    float: center;
+    flex: 1;
+} */
+
+img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+div {
+    display: block;
+}
+
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* stats */
+
+.abrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.abcol {
+    display: flex;
+    width: 100%;
+    padding: 4px;
+}
+
+.abcolleft {
+    display: table-cell;
+    flex: 50%;
+    width: 50%;
+    padding: 4px;
+}
+
+.abcolright {
+    display: table-cell;
+    flex: 50%;
+    width: 50%;
+    padding: 4px;
+    text-align: right;
+}
+
+.stat-list {
+    text-align: left;
+    width: 100%;
+}
+
+.stat-h2 {
+    color: #353A3F;
+    font-size: 120%;
+}
+
+.map-background {
+    text-align: center;
+    display: inline-block;
+    flex: 1;
+    width: 100%;
+}
+
+.hyperspan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#github-link-cont {
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    color: white;
+}
+
+#linkedin-link-cont {
+    padding-top: 5px;
+    padding-right: 5px;
+    float: right;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+}
+
+.f-container {
+    background-image: linear-gradient(to bottom right, rgba(53, 58, 63, 0.934), rgba(53, 58, 63, 0.776));
+}
+
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-block-end: 0px !important;
+}
